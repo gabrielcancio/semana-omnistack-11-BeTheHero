@@ -1,16 +1,19 @@
 {
     "name": "backend",
     "version": "1.0.0",
-    "description": "",
+    "description": "Backend of Be The Hero project.",
     "main": "index.js",
     "scripts": {
         "start": "nodemon src/index.js"
     },
     "keywords": [],
-    "author": "",
+    "author": "Gabriel Cancio",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1",
+        "knex": "^0.21.1"
+    },
+    "devDependencies": {
         "nodemon": "^2.0.3"
     }
 }
