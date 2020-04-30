@@ -1,15 +1,10 @@
 const express = require('express');
+const routes = require('./routes');
 
 const app = express();
 
 app.use(express.json());
 
-app.get('/', (request, response) => {
-    return response.json({
-        evento: "Semana Omnnistack",
-        versão: 11.0,
-        aluno: "Gabriel Cancio"
-    });
-});
+app.use(routes);
 
 app.listen(3333);
