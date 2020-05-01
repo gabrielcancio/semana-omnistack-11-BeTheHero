@@ -24,15 +24,6 @@ routes.post('/ongs', async(request, response) => {
         uf,
     });
 
-    /*console.log({
-        id,
-        name,
-        email,
-        whatsapp,
-        city,
-        uf,
-    })*/
-
     return response.json({ id });
 });
 
