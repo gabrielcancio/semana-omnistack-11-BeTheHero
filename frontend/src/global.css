@@ -42,7 +42,7 @@ form input {
     line-height: 60px;
     margin-top: 16px;
     display: inline-block;
-    align-items: center;
+    text-align: center;
     text-decoration: none;
     transition: filter 0.2s;
 }
