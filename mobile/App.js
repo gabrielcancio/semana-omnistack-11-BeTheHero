@@ -12,4 +12,4 @@ export default function App() {
 }
 
 
-// Mobile finished
+// Mobile finished with sucess
