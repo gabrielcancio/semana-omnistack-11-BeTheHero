@@ -78,7 +78,7 @@ $ npm test
 ---
 
 ## :zap: Running
-1. You can run the API (server application) on server directory and runnig the follow command:
+1. You can run the API (server application) on server directory and running the follow command:
 ```bash
 $ npm dev
 ``` 
